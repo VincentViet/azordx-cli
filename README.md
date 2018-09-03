@@ -1,32 +1,29 @@
 azordx-cli
 ==========
 
-
-
-[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/azordx-cli.svg)](https://npmjs.org/package/azordx-cli)
-[![CircleCI](https://circleci.com/gh/VincentViet/azordx-cli/tree/master.svg?style=shield)](https://circleci.com/gh/VincentViet/azordx-cli/tree/master)
-[![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/VincentViet/azordx-cli?branch=master&svg=true)](https://ci.appveyor.com/project/VincentViet/azordx-cli/branch/master)
-[![Codecov](https://codecov.io/gh/VincentViet/azordx-cli/branch/master/graph/badge.svg)](https://codecov.io/gh/VincentViet/azordx-cli)
-[![Downloads/week](https://img.shields.io/npm/dw/azordx-cli.svg)](https://npmjs.org/package/azordx-cli)
-[![License](https://img.shields.io/npm/l/azordx-cli.svg)](https://github.com/VincentViet/azordx-cli/blob/master/package.json)
-
 <!-- toc -->
+* [Prerequisite](#prerequisite)
 * [Usage](#usage)
 * [Commands](#commands)
 <!-- tocstop -->
-# Usage
+
+# Prerequisite
+<!-- prerequisite -->
+* Install [mingw-w64 32-bit](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/rubenvb/)
+**Or**
+[mingw-w64 64-bit](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/rubenvb/)
+* Install [CMake](https://cmake.org/download/)
+* Install [NodeJs](https://nodejs.org/en/)
+* Make sure add them to your PATH
+<!-- prerequisitestop -->
+
+# Install
 <!-- usage -->
+* Clone this repo
+* Run your cmd.exe, and cd to azordx-cli folder
+* Then type:
 ```sh-session
-$ npm install -g azordx-cli
-$ azordx COMMAND
-running command...
-$ azordx (-v|--version|version)
-azordx-cli/1.0.0 win32-x64 node-v8.11.4
-$ azordx --help [COMMAND]
-USAGE
-  $ azordx COMMAND
-...
+$ npm link
 ```
 <!-- usagestop -->
 # Commands
