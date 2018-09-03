@@ -49,7 +49,7 @@ EXAMPLE
   $ azordx new MyGame
 ```
 
-_See code: [src\commands\new.ts](https://github.com/VincentViet/azordx-cli/v1.0.0/src\commands\new.ts)_
+_See code: [src\commands\new.ts](https://github.com/VincentViet/azordx-cli/blob/master/src/commands/new.ts)_
 
 ## `azordx help [COMMAND]`
 
