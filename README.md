@@ -31,28 +31,25 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`azordx hello [FILE]`](#azordx-hello-file)
+* [`azordx new [ProjectName]`](#azordx-hello-file)
 * [`azordx help [COMMAND]`](#azordx-help-command)
 
-## `azordx hello [FILE]`
+## `azordx new [PROJECT NAME]`
 
 describe the command here
 
 ```
 USAGE
-  $ azordx hello [FILE]
+  $ azordx new [projectName]
 
 OPTIONS
-  -f, --force
   -h, --help       show CLI help
-  -n, --name=name  name to print
-
+  
 EXAMPLE
-  $ azordx hello
-  hello world from ./src/hello.ts!
+  $ azordx new MyGame
 ```
 
-_See code: [src\commands\hello.ts](https://github.com/VincentViet/azordx-cli/blob/v1.0.0/src\commands\hello.ts)_
+_See code: [src\commands\new.ts](https://github.com/VincentViet/azordx-cli/v1.0.0/src\commands\new.ts)_
 
 ## `azordx help [COMMAND]`
 
