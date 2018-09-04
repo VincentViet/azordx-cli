@@ -30,7 +30,7 @@ export default class New extends Command {
     // global.console.log(args.projectName)
     let rootSourceDir = path.normalize(path.join(__dirname, '../../AzorDx'))
     let rootDir: string = path.join(global.process.cwd(), args.projectName)
-    let responses = await inquirer.prompt([{
+    let responses: any = await inquirer.prompt([{
       name: 'compilerPath',
       message: 'Tell me where your compiler is (mingw32-g++.exe or g++.exe)',
       type: 'input',
